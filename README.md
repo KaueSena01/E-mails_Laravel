@@ -1,7 +1,7 @@
-<h2>Formulário de contato | Laravel</h2>
-<a href="https://mailtrap.io/">Mailtrap</a>
-<p>O que é o Mailtrap</p>
+<h2>Formulário de contato com Mailtrap</h2>
+<p>O que é o Mailtrap?</p>
 <p>Mailtrap é uma ferramenta gratuita para testar envio de e-mails. Essa ferramenta é extremamente útil em ambiente local de desenvolvimento, porque o envio de e-mail fica centralizado e através da ferramenta é muito mais fácil analisar o conteúdo do e-mail.</p>
+<a href="https://mailtrap.io/">Mailtrap</a>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
