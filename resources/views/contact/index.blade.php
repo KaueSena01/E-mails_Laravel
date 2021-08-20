@@ -8,16 +8,54 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
+	<style type="text/css">
+		body{
+			background-color: #000;
+		}
+		.container-form{
+			min-width: 400px;
+			/*min-height: 500px;*/
+			background-color: #232323;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			border-radius: 5px;
+		}
+		.aling-form{
+			width: 95%;
+			margin: 0 auto;
+		}
+		.aling-form form{
+			margin-top: 30px;
+		}
+		form h2{
+			text-align: center;
+			color: #fff;
+		}
+		strong{
+			font-size: 15px;
+		}
+		ul li{
+			font-size: 13px;
+		}
+		label{
+			color: #fff;
+		}
+		button{
+			margin-bottom: 15px;
+		}
+	</style>
 <body>
-	<div class="container">
-		<div class="row">
+	<div>
+		<div class="container-form">
 			
-			<div class="col-md-6 jumbotron mx-auto">
+			<div class="aling-form">
 				<form action="{{ url('/') }}" method="POST">
 					@csrf
 
 					<div class="form-group">
-						<h2>Envie uma mensagem</h2>
+						<h2>Página de contato</h2>
 					</div>
 
 					@if(count($errors) > 0)
